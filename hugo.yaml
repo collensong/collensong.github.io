@@ -1,0 +1,74 @@
+baseURL: "https://collensong.github.io/"
+languageCode: "zh-CN"
+title: "小步快跑"
+theme: ["PaperMod"]
+
+paginate: 5
+
+enableRobotsTXT: true
+enableEmoji: true
+
+menu:
+  main:
+    - identifier: home
+      name: 🏠 首页
+      url: /
+      weight: 10
+    - identifier: about
+      name: 👤 关于
+      url: /about/
+      weight: 20
+    - identifier: posts
+      name: 📝 文章
+      url: /posts/
+      weight: 30
+    - identifier: tags
+      name: 🔖 标签
+      url: /tags/
+      weight: 40
+    - identifier: search
+      name: 🔍 搜索
+      url: /search/
+      weight: 50
+
+params:
+  profileMode:
+    enabled: true
+    title: "Colleen"
+    subtitle: "AI 应用开发者 / 终身学习者"
+    imageUrl: "/images/profile.png"
+    imageWidth: 120
+    imageHeight: 120
+    buttons:
+      - name: 📚 博客文章
+        url: posts
+      - name: 💻 GitHub
+        url: "https://github.com/collensong"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/collensong"
+    - name: twitter
+      url: "https://twitter.com/collensong"
+    - name: email
+      url: "mailto:fa60983@163.com"
+
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+
+  search:
+    enable: true
+
+  defaultTheme: auto
+  disableThemeToggle: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
