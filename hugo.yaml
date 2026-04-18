@@ -34,7 +34,7 @@ menu:
 params:
   profileMode:
     enabled: true
-    title: "Colleen"
+    title: "Collen"
     subtitle: "AI 应用开发者 / 终身学习者"
     imageUrl: "/images/profile.png?v=2"
     imageWidth: 120
